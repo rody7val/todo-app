@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/rody7val/todo-app/issues"
   },
-  "homepage": "https://github.com/rody7val/todo-app#readme"
+  "homepage": "https://github.com/rody7val/todo-app#readme",
+  "devDependencies": {
+    "firebase": "^6.3.3",
+    "firebase-tools": "^7.2.2"
+  }
 }
