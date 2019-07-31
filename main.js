@@ -1,4 +1,3 @@
-// Initialize Firebase.
 const db = firebase.initializeApp({
   apiKey: "AIzaSyBHWTQ4TEph5O533Y_0HS2rlrepV6bSmm4",
   authDomain: "todo-app-c43a7.firebaseapp.com",
@@ -14,9 +13,9 @@ Vue.use(db);
 new Vue({
   el: "#app",
   firestore() {
-     return {
-       persons: db.collection("persons")
-     }
+    return {
+      persons: db.collection("persons")
+    }
   },
   data(){
     return {
